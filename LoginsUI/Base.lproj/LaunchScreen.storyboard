@@ -1,7 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -16,12 +17,46 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_image" translatesAutoresizingMaskIntoConstraints="NO" id="nZJ-BS-1d0"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LoginsUI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWJ-VL-zY2">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="d0C-EB-6cr"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="40"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try to code beautiful login screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="po5-by-Kbh">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="ept-eN-OnI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XWJ-VL-zY2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="5Yi-Za-BHa"/>
+                            <constraint firstAttribute="trailing" secondItem="XWJ-VL-zY2" secondAttribute="trailing" constant="20" id="7qT-nG-bvG"/>
+                            <constraint firstAttribute="trailing" secondItem="po5-by-Kbh" secondAttribute="trailing" constant="20" id="BLe-X7-KkS"/>
+                            <constraint firstItem="po5-by-Kbh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="KXx-Og-T6C"/>
+                            <constraint firstItem="XWJ-VL-zY2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VSD-mt-GlF"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nZJ-BS-1d0" secondAttribute="bottom" id="WbI-f0-g9y"/>
+                            <constraint firstItem="nZJ-BS-1d0" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="gQ0-xH-3hw"/>
+                            <constraint firstAttribute="trailing" secondItem="nZJ-BS-1d0" secondAttribute="trailing" id="hj2-c2-zWB"/>
+                            <constraint firstItem="po5-by-Kbh" firstAttribute="top" secondItem="XWJ-VL-zY2" secondAttribute="bottom" constant="8" id="qZT-Uu-v7G"/>
+                            <constraint firstItem="nZJ-BS-1d0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="zns-pJ-8NN"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="bg_image" width="1000" height="1083"/>
+    </resources>
 </document>
