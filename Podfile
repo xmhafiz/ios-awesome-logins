@@ -6,6 +6,7 @@ target 'LoginsUI' do
   use_frameworks!
 
   # Pods for LoginsUI
+  pod 'IQKeyboardManagerSwift'
 
   target 'LoginsUITests' do
     inherit! :search_paths
