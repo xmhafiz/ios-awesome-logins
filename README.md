@@ -2,7 +2,7 @@
 This project intended to have multiple awesome login pages for iOS development which written in Swift 3.0
 
 # Screenshots
-- Clean with background Image
+### Clean with background Image
 ![image1](/Screenshots/image1.png)
 
 ## Requirements ##
