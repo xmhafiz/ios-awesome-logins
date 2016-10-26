@@ -15,6 +15,7 @@
 		861579F61DC093C500786B91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 861579F41DC093C500786B91 /* LaunchScreen.storyboard */; };
 		86157A011DC093C500786B91 /* LoginsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157A001DC093C500786B91 /* LoginsUITests.swift */; };
 		86157A0C1DC093C600786B91 /* LoginsUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157A0B1DC093C600786B91 /* LoginsUIUITests.swift */; };
+		86157A1A1DC09DAC00786B91 /* CleanBackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86157A191DC09DAC00786B91 /* CleanBackgroundViewController.swift */; };
 		A3F416D790E332A08464386B /* Pods_LoginsUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C1C9AC161FD6C0896CE86FE /* Pods_LoginsUIUITests.framework */; };
 		DBCD7EBFB22E264E8F2119F6 /* Pods_LoginsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B66C884D50EE4F720216D0A /* Pods_LoginsUI.framework */; };
 /* End PBXBuildFile section */
@@ -54,6 +55,7 @@
 		86157A071DC093C600786B91 /* LoginsUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LoginsUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86157A0B1DC093C600786B91 /* LoginsUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginsUIUITests.swift; sourceTree = "<group>"; };
 		86157A0D1DC093C600786B91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86157A191DC09DAC00786B91 /* CleanBackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CleanBackgroundViewController.swift; sourceTree = "<group>"; };
 		9F9DAE872FD39374FF0335F7 /* Pods-LoginsUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginsUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LoginsUIUITests/Pods-LoginsUIUITests.release.xcconfig"; sourceTree = "<group>"; };
 		BA400FF096FABEAFAB533EAF /* Pods-LoginsUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginsUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginsUIUITests/Pods-LoginsUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D73023AD6344559A9CC95694 /* Pods-LoginsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LoginsUITests/Pods-LoginsUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			children = (
 				861579EB1DC093C500786B91 /* AppDelegate.swift */,
 				861579ED1DC093C500786B91 /* ViewController.swift */,
+				86157A191DC09DAC00786B91 /* CleanBackgroundViewController.swift */,
 				861579EF1DC093C500786B91 /* Main.storyboard */,
 				861579F21DC093C500786B91 /* Assets.xcassets */,
 				861579F41DC093C500786B91 /* LaunchScreen.storyboard */,
@@ -433,6 +436,7 @@
 			files = (
 				861579EE1DC093C500786B91 /* ViewController.swift in Sources */,
 				861579EC1DC093C500786B91 /* AppDelegate.swift in Sources */,
+				86157A1A1DC09DAC00786B91 /* CleanBackgroundViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
