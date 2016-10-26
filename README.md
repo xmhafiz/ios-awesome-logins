@@ -1,5 +1,5 @@
 # LoginsUI
-We intended to have multiple awesome login page for iOS apps which written in Swift
+This project intended to have multiple awesome login pages for iOS development which written in Swift 3.0
 
 ## Requirements ##
 
