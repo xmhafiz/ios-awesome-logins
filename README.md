@@ -1,9 +1,15 @@
 # LoginsUI
 This project intended to have multiple awesome login pages for iOS development which written in Swift 3.0
 
-# Screenshots
-### Clean with background Image
-![image1](/Screenshots/image1.png)
+## Screenshots
+
+- Clean with background Image. Inspired from [Pintrest](https://www.pinterest.com/pin/560909328562777460/)
+
+ ![image1](/Screenshots/image1.png)
+
+ - Material design using [FloatLabelFields](https://github.com/FahimF/FloatLabelFields)
+
+  ![image1](/Screenshots/image2.png)
 
 ## Requirements ##
 
@@ -21,5 +27,3 @@ Licensed under the [MIT license](http://opensource.org/licenses/MIT)
 
 ## Contributions ##
 Any contribution is most welcome! You may contribute through pull requests and issues on GitHub.
-
-

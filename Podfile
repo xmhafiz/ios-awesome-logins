@@ -8,14 +8,4 @@ target 'LoginsUI' do
   # Pods for LoginsUI
   pod 'IQKeyboardManagerSwift'
 
-  target 'LoginsUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'LoginsUIUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
 end
