@@ -19,8 +19,9 @@ class ViewController: UIViewController {
     
     let cellIndentifier = "BasicCell"
     
-    let seguesIndentifiers = [
-        "PresentLoginWithBackground"
+    let tableData = [
+        ["title": "Clean with Background Image", "segue": "PresentLoginWithBackground"],
+        ["title": "Material Design", "segue": "PresentMaterial"],
     ]
     
     override func viewDidLoad() {
@@ -36,20 +37,24 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return seguesIndentifiers.count
+        return tableData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIndentifier)!
         
+        let rowData = tableData[indexPath.row]
+        
         // set label to segue identifier
-        cell.textLabel?.text = seguesIndentifiers[indexPath.row]
+        cell.textLabel?.text = rowData["title"]
         
         return cell
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        performSegue(withIdentifier: seguesIndentifiers[indexPath.row], sender: self)
+        let rowData = tableData[indexPath.row]
+        
+        performSegue(withIdentifier: rowData["segue"]!, sender: self)
     }
 }
 
