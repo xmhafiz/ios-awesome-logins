@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -18,8 +21,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_image" translatesAutoresizingMaskIntoConstraints="NO" id="nZJ-BS-1d0"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_image" translatesAutoresizingMaskIntoConstraints="NO" id="nZJ-BS-1d0">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LoginsUI" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XWJ-VL-zY2">
+                                <rect key="frame" x="20" y="308.5" width="335" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="d0C-EB-6cr"/>
                                 </constraints>
@@ -28,6 +34,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Try to code beautiful login screen" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="po5-by-Kbh">
+                                <rect key="frame" x="20" y="366.5" width="335" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="ept-eN-OnI"/>
                                 </constraints>
@@ -43,10 +50,10 @@
                             <constraint firstAttribute="trailing" secondItem="po5-by-Kbh" secondAttribute="trailing" constant="20" id="BLe-X7-KkS"/>
                             <constraint firstItem="po5-by-Kbh" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="KXx-Og-T6C"/>
                             <constraint firstItem="XWJ-VL-zY2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VSD-mt-GlF"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="nZJ-BS-1d0" secondAttribute="bottom" id="WbI-f0-g9y"/>
                             <constraint firstItem="nZJ-BS-1d0" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="gQ0-xH-3hw"/>
                             <constraint firstAttribute="trailing" secondItem="nZJ-BS-1d0" secondAttribute="trailing" id="hj2-c2-zWB"/>
                             <constraint firstItem="po5-by-Kbh" firstAttribute="top" secondItem="XWJ-VL-zY2" secondAttribute="bottom" constant="8" id="qZT-Uu-v7G"/>
+                            <constraint firstAttribute="bottom" secondItem="nZJ-BS-1d0" secondAttribute="bottom" id="tee-Dr-o3e"/>
                             <constraint firstItem="nZJ-BS-1d0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="zns-pJ-8NN"/>
                         </constraints>
                     </view>
@@ -57,6 +64,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg_image" width="1000" height="1083"/>
+        <image name="bg_image" width="240" height="259.92001342773438"/>
     </resources>
 </document>
