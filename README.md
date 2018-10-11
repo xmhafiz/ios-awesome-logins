@@ -1,5 +1,5 @@
 # LoginsUI
-This project intended to have multiple awesome login pages for iOS development which written in Swift 3.0
+This project intended to have multiple awesome login pages for iOS development which written in Swift 4
 
 ## Screenshots
 
@@ -13,9 +13,9 @@ This project intended to have multiple awesome login pages for iOS development w
 
 ## Requirements ##
 
-- Xcode 8
-- iOS 8.0+
-- Swift 3.0
+- Xcode 10
+- iOS 9+
+- Swift 4.0
 
 ## Setup ##
 ```bash
