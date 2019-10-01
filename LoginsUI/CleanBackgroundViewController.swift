@@ -22,10 +22,10 @@ class CleanBackgroundViewController: UIViewController {
         passwordTextField.rounded()
         loginButton.rounded()
         
-        loginButton.addTarget(self, action: #selector(CleanBackgroundViewController.dismissThisController), for: UIControlEvents.touchUpInside)
+        loginButton.addTarget(self, action: #selector(CleanBackgroundViewController.dismissThisController), for: UIControl.Event.touchUpInside)
     }
     
-    func dismissThisController() {
+    @objc func dismissThisController() {
         self.dismiss(animated: true, completion: nil)
     }
 
@@ -45,7 +45,7 @@ extension UITextField {
         self.layer.borderWidth = 1
         
         // set placeholder to light gray
-        self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: [NSForegroundColorAttributeName: UIColor.lightGray])
+        self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: convertToOptionalNSAttributedStringKeyDictionary([convertFromNSAttributedStringKey(NSAttributedString.Key.foregroundColor): UIColor.lightGray]))
     }
 }
 
@@ -56,4 +56,15 @@ extension UIButton {
         self.layer.cornerRadius = 25
         self.clipsToBounds = true
     }
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertToOptionalNSAttributedStringKeyDictionary(_ input: [String: Any]?) -> [NSAttributedString.Key: Any]? {
+	guard let input = input else { return nil }
+	return Dictionary(uniqueKeysWithValues: input.map { key, value in (NSAttributedString.Key(rawValue: key), value)})
+}
+
+// Helper function inserted by Swift 4.2 migrator.
+fileprivate func convertFromNSAttributedStringKey(_ input: NSAttributedString.Key) -> String {
+	return input.rawValue
 }
