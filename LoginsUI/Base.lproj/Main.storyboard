@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HA2-Mx-BQr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="HA2-Mx-BQr">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -86,23 +87,23 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czg-iL-1vF">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="czg-iL-1vF">
                                 <rect key="frame" x="57" y="396" width="300" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="0dD-pc-aJo"/>
                                     <constraint firstAttribute="width" constant="300" id="5yP-Td-VWi"/>
                                 </constraints>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gGv-y5-1U4">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="gGv-y5-1U4">
                                 <rect key="frame" x="57" y="462" width="300" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="3gS-e1-DTW"/>
                                     <constraint firstAttribute="width" constant="300" id="x2A-VL-cr3"/>
                                 </constraints>
-                                <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <color key="textColor" systemColor="groupTableViewBackgroundColor"/>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="18"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                             </textField>
@@ -115,7 +116,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBy-vm-PCM">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BBy-vm-PCM">
                                 <rect key="frame" x="57" y="528" width="300" height="50"/>
                                 <color key="backgroundColor" red="0.15294117647058825" green="0.68235294117647061" blue="0.38039215686274508" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -126,7 +127,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BrF-tY-wzt">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BrF-tY-wzt">
                                 <rect key="frame" x="99" y="586" width="72" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="72" id="kgT-Pf-f3R"/>
@@ -146,7 +147,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gK3-BE-Nuc">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gK3-BE-Nuc">
                                 <rect key="frame" x="240" y="587" width="57" height="30"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="7h8-bP-3pW"/>
@@ -249,7 +250,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qeg-KF-M89">
                                 <rect key="frame" x="0.0" y="410" width="414" height="432"/>
                                 <subviews>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oMA-cJ-g52" customClass="FloatLabelTextField" customModule="LoginsUI" customModuleProvider="target">
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oMA-cJ-g52" customClass="FloatLabelTextField" customModule="LoginsUI" customModuleProvider="target">
                                         <rect key="frame" x="57" y="71" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="bOE-6s-Kai"/>
@@ -272,7 +273,14 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-sO-yqI" customClass="FloatLabelTextField" customModule="LoginsUI" customModuleProvider="target">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="VnH-Gu-XOV">
+                                        <rect key="frame" x="57" y="120" width="300" height="1"/>
+                                        <color key="backgroundColor" red="0.14901960784313725" green="0.16078431372549018" blue="0.17254901960784313" alpha="0.2969552654109589" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="JP7-w3-bne"/>
+                                        </constraints>
+                                    </view>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="MDP-sO-yqI" customClass="FloatLabelTextField" customModule="LoginsUI" customModuleProvider="target">
                                         <rect key="frame" x="57" y="141" width="300" height="50"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="50" id="Fkr-bK-hSf"/>
@@ -295,7 +303,14 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALU-IG-VdV">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hKb-Bz-gwW">
+                                        <rect key="frame" x="57" y="190" width="300" height="1"/>
+                                        <color key="backgroundColor" red="0.14901960780000001" green="0.16078431369999999" blue="0.17254901959999999" alpha="0.2969552654" colorSpace="calibratedRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="Wyj-qp-Jz1"/>
+                                        </constraints>
+                                    </view>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ALU-IG-VdV">
                                         <rect key="frame" x="57" y="211" width="300" height="50"/>
                                         <color key="backgroundColor" red="0.19607843137254902" green="0.31372549019607843" blue="0.70588235294117641" alpha="1" colorSpace="calibratedRGB"/>
                                         <constraints>
@@ -309,7 +324,7 @@
                                             <action selector="dismissAction:" destination="dpE-Dg-B4l" eventType="touchUpInside" id="6V6-aO-ePy"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H09-XH-FGT">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H09-XH-FGT">
                                         <rect key="frame" x="149.5" y="276" width="115" height="30"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="30" id="81Y-Aa-45V"/>
@@ -326,17 +341,23 @@
                                 </subviews>
                                 <color key="backgroundColor" name="Background1"/>
                                 <constraints>
+                                    <constraint firstItem="VnH-Gu-XOV" firstAttribute="width" secondItem="oMA-cJ-g52" secondAttribute="width" id="3e2-MM-g28"/>
                                     <constraint firstItem="MDP-sO-yqI" firstAttribute="top" secondItem="oMA-cJ-g52" secondAttribute="bottom" constant="20" id="6ls-On-quj"/>
+                                    <constraint firstItem="VnH-Gu-XOV" firstAttribute="centerX" secondItem="oMA-cJ-g52" secondAttribute="centerX" id="7x1-Kr-pIr"/>
                                     <constraint firstAttribute="height" constant="432" id="CRy-wn-cMA"/>
                                     <constraint firstItem="oMA-cJ-g52" firstAttribute="centerX" secondItem="Qeg-KF-M89" secondAttribute="centerX" id="DFd-bX-Xh0"/>
                                     <constraint firstItem="oMA-cJ-g52" firstAttribute="top" secondItem="Qeg-KF-M89" secondAttribute="top" constant="71" id="Lck-xU-Zpg"/>
+                                    <constraint firstItem="VnH-Gu-XOV" firstAttribute="bottom" secondItem="oMA-cJ-g52" secondAttribute="bottom" id="R7S-5K-fEU"/>
+                                    <constraint firstItem="hKb-Bz-gwW" firstAttribute="bottom" secondItem="MDP-sO-yqI" secondAttribute="bottom" id="VII-0a-ZiY"/>
                                     <constraint firstItem="Mzt-Mj-pCi" firstAttribute="leading" secondItem="Qeg-KF-M89" secondAttribute="leading" constant="57" id="WIu-JC-UL7"/>
                                     <constraint firstItem="oMA-cJ-g52" firstAttribute="top" secondItem="Mzt-Mj-pCi" secondAttribute="bottom" constant="30" id="dgo-9q-6vu"/>
                                     <constraint firstAttribute="trailing" secondItem="Mzt-Mj-pCi" secondAttribute="trailing" constant="57" id="gKz-si-FUW"/>
                                     <constraint firstItem="ALU-IG-VdV" firstAttribute="top" secondItem="MDP-sO-yqI" secondAttribute="bottom" constant="20" id="gnc-5f-im1"/>
+                                    <constraint firstItem="hKb-Bz-gwW" firstAttribute="centerX" secondItem="MDP-sO-yqI" secondAttribute="centerX" id="iEs-Db-ej4"/>
                                     <constraint firstItem="H09-XH-FGT" firstAttribute="centerX" secondItem="Qeg-KF-M89" secondAttribute="centerX" id="isz-xk-awb"/>
                                     <constraint firstItem="ALU-IG-VdV" firstAttribute="centerX" secondItem="Qeg-KF-M89" secondAttribute="centerX" id="je5-La-RG0"/>
                                     <constraint firstItem="H09-XH-FGT" firstAttribute="top" secondItem="ALU-IG-VdV" secondAttribute="bottom" constant="15" id="mDZ-QS-m3m"/>
+                                    <constraint firstItem="hKb-Bz-gwW" firstAttribute="width" secondItem="MDP-sO-yqI" secondAttribute="width" id="oKB-7Z-eiI"/>
                                     <constraint firstItem="MDP-sO-yqI" firstAttribute="centerX" secondItem="Qeg-KF-M89" secondAttribute="centerX" id="qaU-OQ-B9W"/>
                                 </constraints>
                             </view>
@@ -355,7 +376,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rV5-WQ-6jG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2069.5652173913045" y="875.54347826086962"/>
+            <point key="canvasLocation" x="2069.5652173913045" y="875.22321428571422"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="nth-s2-uPH">
@@ -376,14 +397,28 @@
             <point key="canvasLocation" x="127" y="123"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="MDP-sO-yqI">
+            <size key="intrinsicContentSize" width="62.5" height="17"/>
+        </designable>
+        <designable name="oMA-cJ-g52">
+            <size key="intrinsicContentSize" width="34.5" height="18.5"/>
+        </designable>
+    </designables>
     <resources>
         <image name="bg_image" width="1000" height="1083"/>
         <image name="ic_bus" width="48" height="48"/>
         <namedColor name="Background1">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Background2">
-            <color red="0.23499999940395355" green="0.23499999940395355" blue="0.23499999940395355" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.24699999392032623" blue="0.50199997425079346" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="groupTableViewBackgroundColor">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>
